@@ -19,5 +19,26 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+}
+.desktopMenuListItem:hover{
+   border-bottom: 3px solid white;
+   padding-bottom: 0.5rem;
+   color: white;
+}
 
+.desktopMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+.desktopMenuBtn{
+    background: white;
+    color: Black;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    justify-content: center;
 }
